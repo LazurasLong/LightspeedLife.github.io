@@ -12,7 +12,6 @@ header {
     position: absolute;
     background-image: url('../images/elements/static_border.gif');
     background-repeat: repeat;
-    background-color: white;
     -webkit-background-clip: text;
     width: 270px;
     height: 100%;
@@ -45,6 +44,12 @@ section iframe {
 /*STYLE*/
 h1, h2, h3, h4, h5, h6 { color: white; letter-spacing: 6px; font-weight: 200; color: white; font-family: 'Segoe UI' }
 a, p, b, i, em, q { color: #c9c9c9; font-family: 'Segoe UI'; }
+
+.fuzztext {
+background: url('../images/elements/static_border.gif');
+background-repeat: repeat;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;}
 
 article {
     position: relative;
