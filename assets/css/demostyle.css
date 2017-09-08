@@ -39,6 +39,30 @@ section iframe {
     height: 100%;
 }
 
+@media screen and (max-width: 720px) {
+    nav { display: none; }
+    header {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        float: top;
+        font-size: xx-small;
+        text-align: center;
+    }
+    section {
+        width: 100%;
+        height: auto;
+        position: fixed;
+        float: bottom;
+        left: 0;
+        top: 60px;
+    }
+    article {
+        height: 60px;
+        width: auto;
+    }
+}
+
 /*STYLE*/
 h1, h2, h3, h4, h5, h6 { color: white; letter-spacing: 6px; font-weight: 200; color: white; font-family: 'Segoe UI' }
 a, p, b, i, em, q { color: #c9c9c9; font-family: 'Segoe UI'; }
