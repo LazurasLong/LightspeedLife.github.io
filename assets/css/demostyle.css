@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6 { color: white; letter-spacing: 6px; font-weight: 200; co
 a, p, b, i, em, q { color: #c9c9c9; font-family: 'Segoe UI'; }
 
 .fuzztext {
-background: url('../images/elements/static_border.gif');
+background: url('/assets/images/elements/static_border.gif');
 background-repeat: repeat;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;}
