@@ -22,9 +22,9 @@
         p, em, i, b, a { color: #c9c9c9; }
         ul { font-size: larger; color: lightblue; }
         @media screen and (max-width: 720px;) {
-            section { width: 600px; height: 390px; padding: 0; overflow: hidden; }
-            iframe { width: 800px; height: 520px; border: 1px solid black; }
-            iframe { zoom: 0.75; -moz-transform: scale(0.75); -moz-transform-origin: 0 0; }
+            #wrap { width: 600px; height: 390px; padding: 0; overflow: hidden; }
+            #frame { width: 800px; height: 520px; border: 1px solid black; }
+            #frame { zoom: 0.75; -moz-transform: scale(0.75); -moz-transform-origin: 0 0; }
         }
     </style>
     <body>
@@ -44,8 +44,8 @@
                     <!-- <p>Hosted by Github Pages<br>(c) Zee Pilgrim 2017</p> -->
                 </div>
             </header>
-            <section>
-                <iframe src="/pages/front.html" name="iframe_section">Your browser doesn't support iframes! Sorry!</iframe>
+            <section id="wrap">
+                <iframe id="frame" src="/pages/front.html" name="iframe_section">Your browser doesn't support iframes! Sorry!</iframe>
             </section>
         </main>
     </body>
