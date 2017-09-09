@@ -49,18 +49,6 @@ section iframe {
         font-size: xx-small;
         text-align: center;
     }
-    section {
-        width: 100%;
-        height: auto;
-        position: fixed;
-        float: bottom;
-        left: 0;
-        top: 60px;
-    }
-    article {
-        height: 60px;
-        width: auto;
-    }
 }
 
 /*STYLE*/
