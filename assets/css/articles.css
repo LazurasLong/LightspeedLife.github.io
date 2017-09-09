@@ -1,6 +1,15 @@
+/*
+<meta charset="UTF-8">
+<meta name="author" content="Zee Pilgrim">
+<meta name="keywords" content="writing, blog, science-fiction, sci-fi, sf, fantasy, poetry, daily life">
+<meta name="description" content="Zee Pilgrim's Personal Blog">
+<meta name="viewport" content="width=device-width" initial-scale="1.0">
+<link rel="stylesheet" type="text/css" href="./assets/css/demostyle.css">
+*/
 body {
     margin: 50px;
     max-width: 90%;
     background-color: black;
     color: #c9c9c9;
+    font-family: 'Segoe UI';
 }
