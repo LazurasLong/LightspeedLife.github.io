@@ -43,7 +43,7 @@ section iframe {
     nav { display: none; }
     header {
         width: 100%;
-        height: auto;
+        height: 50px;
         padding: 0;
         float: top;
         font-size: xx-small;
