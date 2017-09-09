@@ -8,8 +8,8 @@
         <meta name="description" content="Zee Pilgrim's Personal Blog">
         <meta name="viewport" content="width=device-width" initial-scale="1.0">
         <!-- <link rel="stylesheet" type="text/css" href="assets/css/w3.css"> -->
-        <link rel="stylesheet" type="text/css" href="/assets/css/demostyle.css">
-        <link rel="icon" href="/assets/images/elements/static_border.gif" type="image/gif" sizes="16x16">
+        <link rel="stylesheet" type="text/css" href="./assets/css/demostyle.css">
+        <link rel="icon" href="./assets/images/elements/static_border.gif" type="image/gif" sizes="16x16">
         <!-- just throwing little tweaks at the wall to see if they stick -->
     </head>
     <style>
@@ -21,12 +21,34 @@
         h1 { letter-spacing: 4px; line-height: 40px; color: white; }
         p, em, i, b, a { color: #c9c9c9; }
         ul { font-size: larger; color: lightblue; }
+        @media screen and (max-width: 720px;) {
+            section {
+                position: absolute;
+                width: 100%;
+                padding: 0;
+                overflow: hidden;
+            }
+            section iframe {
+                position: fixed;
+                -moz-transform: scale(0.25, 0.25); 
+                -webkit-transform: scale(0.25, 0.25); 
+                -o-transform: scale(0.25, 0.25);
+                -ms-transform: scale(0.25, 0.25);
+                -moz-transform-origin: top left;
+                -webkit-transform-origin: top left;
+                -o-transform-origin: top left;
+                -ms-transform-origin: top left;
+                transform-origin: top left;
+                transform: scale(0.25, 0.25);
+                width: 100%;
+            }
+        }
     </style>
     <body>
         <main>
-            <header class="w3-container" style="background-color: black;">
+            <header style="background-color: black;">
                 <div class="fuzztext">
-                    <h1><a href="pages/front.html" target="iframe_section">IT'S A LIGHTSPEED LIFE</a></h1>
+                    <h1><a href="./pages/front.html" target="iframe_section">IT'S A LIGHTSPEED LIFE</a></h1>
                     <em>NaNoWriMo Coming Soon!</em>
                 </div>
                 <div style="margin-top: 20px;">
@@ -39,8 +61,8 @@
                     <!-- <p>Hosted by Github Pages<br>(c) Zee Pilgrim 2017</p> -->
                 </div>
             </header>
-            <section class="w3-container">
-                <iframe src="/pages/front.html" name="iframe_section">Your browser doesn't support iframes! Sorry!</iframe>
+            <section>
+                <iframe src="./pages/front.html" name="iframe_section">Your browser doesn't support iframes! Sorry!</iframe>
             </section>
         </main>
     </body>
