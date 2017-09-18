@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 { color: white; letter-spacing: 6px; font-weight: 200; co
 a, p, b, i, em, q { color: #c9c9c9; font-family: 'Segoe UI'; }
 
 .fuzztext {
-background: url('/assets/images/elements/fuzz5.gif');
+background: url('/assets/images/elements/fuzz1.gif');
 background-repeat: repeat;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;}
@@ -73,7 +73,7 @@ article {
     background-size: auto 200px;
     background-repeat: no-repeat;
     border: 10px solid transparent;
-    border-image: url('/assets/images/elements/fuzz5.gif') 30% repeat;
+    border-image: url('/assets/images/elements/fuzz1.gif') 30% repeat;
     float: left;
     transition: content 1s ease;
 }
