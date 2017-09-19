@@ -46,8 +46,7 @@ nav {
 iframe.mainframe {
     border: none;
     margin: 0;
-    height: 100%;
-    width: 80%;
+    width: 100%;
     position: absolute;
     scrolling: no;
 }
@@ -90,7 +89,7 @@ article {
 }
 
 .overlay {
-    position: absolute;
+    position: relative;
     top: 0;
     bottom: 0;
     left: 0;
