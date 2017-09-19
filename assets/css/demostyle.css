@@ -46,7 +46,8 @@ nav {
 iframe.mainframe {
     border: none;
     margin: 0;
-    width: 100%;
+    height: 100%;
+    width: 80%;
     position: absolute;
     scrolling: no;
 }
