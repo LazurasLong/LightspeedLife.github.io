@@ -86,15 +86,7 @@ iframe.mainframe {
 
 /*STYLE*/
 
-.fuzztext * {
-    /*background: url('/assets/images/elements/fuzz1.gif');*/
-    background: url('../images/elements/fuzz1.gif');
-    background-repeat: repeat;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-div.fuzztext * {
+.fuzztext, .fuzztext * {
     /*background: url('/assets/images/elements/fuzz1.gif');*/
     background: url('../images/elements/fuzz1.gif');
     background-repeat: repeat;
@@ -140,7 +132,7 @@ article:hover .overlay { opacity: 1; }
 
 article img { float: left; margin-right: 10px; height: 200px; width: auto; z-index: 0; }
 article.featured { width: 800px; background-position: left; text-align: left; }
-article.standard { width: 220px; background-position: center; text-align: center; }
+article.standard { width: 200px; background-position: center; text-align: center; }
 a { text-decoration: none; }
 
 /*ANIMATIONS*/
