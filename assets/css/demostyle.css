@@ -58,17 +58,21 @@ nav {
     display: list-item block;
     color: whitesmoke;
 }
+
+h1, h2, h3, h4, h5, h6 { color: white; letter-spacing: 6px; font-weight: 200; color: white; font-family: 'Segoe UI' }
+a, p, b, i, em, q { color: #c9c9c9; font-family: 'Segoe UI'; z-index: 1; }
+
+p, q, b, em, i, h1, h2, h3, h4, h5, h6 {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: whitesmoke;
+}
+
 a { text-decoration: none; }
 a:hover, h1, h2 {
     background: url('../images/elements/fuzz1.gif');
     background-repeat: repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-p, q, b, em, i, h1, h2, h3, h4, h5, h6 {
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: whitesmoke;
 }
 
 iframe.mainframe {
@@ -81,8 +85,6 @@ iframe.mainframe {
 }
 
 /*STYLE*/
-h1, h2, h3, h4, h5, h6 { color: white; letter-spacing: 6px; font-weight: 200; color: white; font-family: 'Segoe UI' }
-a, p, b, i, em, q { color: #c9c9c9; font-family: 'Segoe UI'; z-index: 1; }
 
 .fuzztext {
     /*background: url('/assets/images/elements/fuzz1.gif');*/
