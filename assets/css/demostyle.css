@@ -106,7 +106,7 @@ article {
 }
 
 .overlay {
-    box-sizing: content-box;
+    /*box-sizing: content-box;*/
     position: absolute;
     top: 0;
     bottom: 0;
@@ -126,7 +126,7 @@ article:hover .overlay { opacity: 1; }
 
 article img { float: left; margin-right: 10px; height: 200px; width: auto; z-index: 0; }
 article.featured { width: 800px; background-position: left; text-align: left; }
-article.standard { width: 200px; background-position: center; text-align: center; }
+article.standard { width: 220px; background-position: center; text-align: center; }
 a { text-decoration: none; }
 
 /*ANIMATIONS*/
@@ -154,11 +154,11 @@ a { text-decoration: none; }
         width: 100%;
     }
     article {
-        height: 100px;
+        height: 120px;
         font-size: 70%;
     }
-    article.featured { width: 400px; }
-    article.standard { width: 100px; }
+    article.featured { width: 420px; }
+    article.standard { width: 120px; }
     article img { height: 100px; }
     .overlay { height: 100px; }
     footer { display: none; }
