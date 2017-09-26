@@ -61,7 +61,7 @@ nav {
 a { text-decoration: none; }
 a:hover {
     text-decoration: underline;
-    background: url('/assets/images/elements/fuzz1.gif');
+    background: url('../images/elements/fuzz1.gif');
     background-repeat: repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
