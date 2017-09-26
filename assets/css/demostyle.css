@@ -56,8 +56,18 @@ footer {
 }
 nav {
     display: list-item block;
+    color: whitesmoke;
 }
-
+a { text-decoration: none; }
+a:hover {
+    text-decoration: underline;
+    /*background: url('/assets/images/elements/fuzz1.gif');*/
+    background: url('./assets/images/elements/fuzz1.gif');
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+        
 iframe.mainframe {
     border: none;
     margin: 0;
