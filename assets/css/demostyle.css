@@ -86,7 +86,7 @@ iframe.mainframe {
 
 /*STYLE*/
 
-.fuzztext {
+#fuzztext {
     /*background: url('/assets/images/elements/fuzz1.gif');*/
     background: url('../images/elements/fuzz1.gif');
     background-repeat: repeat;
