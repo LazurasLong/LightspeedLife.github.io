@@ -1,7 +1,16 @@
 /* FUNCTION */
 
 /* LAYOUT */
-* { box-sizing: border-box; }
+* { box-sizing: border-box; cursor: crosshair; }
+h1, h2, h3, h4, h5, h6 { color: white; letter-spacing: 6px; font-weight: 200; color: white; font-family: 'Segoe UI' }
+a, p, b, i, em, q { color: #c9c9c9; font-family: 'Segoe UI'; z-index: 1; }
+
+a { cursor: cell; text-decoration: none; }
+
+p, q, b, em, i, h1, h2, h3, h4, h5, h6 {
+    /*-webkit-background-clip: text;*/
+    -webkit-text-fill-color: whitesmoke;
+}
 
 body, html {
     margin: 0;
@@ -45,15 +54,6 @@ footer {
     text-transform: uppercase;
 }
 
-h1, h2, h3, h4, h5, h6 { color: white; letter-spacing: 6px; font-weight: 200; color: white; font-family: 'Segoe UI' }
-a, p, b, i, em, q { color: #c9c9c9; font-family: 'Segoe UI'; z-index: 1; }
-
-p, q, b, em, i, h1, h2, h3, h4, h5, h6 {
-    /*-webkit-background-clip: text;*/
-    -webkit-text-fill-color: whitesmoke;
-}
-
-a { text-decoration: none; }
 
 iframe.mainframe {
     border: none;
@@ -72,6 +72,7 @@ ul.breadcrumb {
   list-style: none;
   background-color: black;
   float: left;
+  margin: 2px;
 }
 
 /* Display list items side by side */
@@ -104,7 +105,7 @@ ul.breadcrumb li a:hover {
 .dropbtn {
   background: black;
   color: whitesmoke;
-  padding: 10px;
+  padding: 2px;
   font-size: 16px;
   font-weight: lighter;
   border: none;
@@ -116,15 +117,15 @@ ul.breadcrumb li a:hover {
   position: relative;
   display: inline-block;
   padding-right: 20px;
+  margin: 2px;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
   right: 0;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.93);
   min-width: 200px;
-  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
   z-index: 1;
 }
 
@@ -207,7 +208,6 @@ article:hover .overlay { opacity: 1; }
 article img {float: left;margin-right: 10px;height: 180px;width: auto;z-index: 0;}
 article.featured { width: 700px; background-position: left; text-align: left; }
 article.standard { width: 200px; background-position: center; text-align: center; }
-a { text-decoration: none; }
 
 /*ANIMATIONS*/
 
