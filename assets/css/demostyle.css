@@ -98,7 +98,7 @@ ul.breadcrumb li a {
 
 /* Add a color on mouse-over */
 ul.breadcrumb li a:hover {
-    background: url('../images/elements/fuzz1_25.gif');
+    background: url('../images/fuzz1_25.gif');
     background-repeat: repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -139,7 +139,7 @@ ul.breadcrumb li a:hover {
 }
 
 .dropdown-content a:hover {
-    background: url('../images/elements/fuzz1.gif');
+    background: url('../images/fuzz1_25.gif');
     background-repeat: repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -156,22 +156,19 @@ ul.breadcrumb li a:hover {
 /*STYLE*/
 
 .fuzztext, .fuzztext * {
-    /*background: url('/assets/images/elements/fuzz1.gif');*/
-    background: url('../images/elements/fuzz1.gif');
+    background: url('../images/fuzz1_25.gif');
     background-repeat: repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .fuzzhover *:hover {
-    /*background: url('/assets/images/elements/fuzz1.gif');*/
-    background: url('../images/elements/fuzz1.gif');
+    background: url('../images/fuzz1_25.gif');
     background-repeat: repeat;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 article {
-    /* box-sizing: content-box; */
     position: relative;
     height: 200px;
     border: none;
@@ -181,8 +178,7 @@ article {
     background-size: auto 200px;
     background-repeat: no-repeat;
     border: 10px solid transparent;
-    /*border-image: url('/assets/images/elements/fuzz1.gif') 30% repeat;*/
-    border-image: url('../images/elements/fuzz1.gif') 30% repeat;
+    border-image: url('../images/fuzz1_25.gif') 30% repeat;
     float: left;
     transition: content 1s ease;
 }
