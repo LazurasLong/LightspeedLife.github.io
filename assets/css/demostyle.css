@@ -131,13 +131,20 @@ ul.breadcrumb li a:hover {
 
 .dropdown-content a {
     color: black;
-    padding: 12px 16px;
-    font-weight: bold;
+    padding: 5px 2px;
+    font-weight: lighter;
     text-decoration: none;
     display: block;
 }
 
-.dropdown-content a:hover {background-color: rgba(e, e, e, 0.7); color: black;}
+.dropdown-content a:hover {
+    background-color: rgba(e, e, e, 0.7);
+    /*background: url('/assets/images/elements/fuzz1.gif');*/
+    background: url('../images/elements/fuzz1.gif');
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 .dropdown:hover .dropdown-content {
     display: block;
