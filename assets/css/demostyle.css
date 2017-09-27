@@ -96,7 +96,6 @@ ul.breadcrumb li a {
 
 /* Add a color on mouse-over */
 ul.breadcrumb li a:hover {
-    /*background: url('/assets/images/elements/fuzz1.gif');*/
     background: url('../images/elements/fuzz1_25.gif');
     background-repeat: repeat;
     -webkit-background-clip: text;
@@ -130,7 +129,7 @@ ul.breadcrumb li a:hover {
 }
 
 .dropdown-content a {
-    color: black;
+    color: whitesmoke;
     padding: 5px 2px;
     font-weight: lighter;
     text-decoration: none;
@@ -138,8 +137,6 @@ ul.breadcrumb li a:hover {
 }
 
 .dropdown-content a:hover {
-    background-color: rgba(e, e, e, 0.7);
-    /*background: url('/assets/images/elements/fuzz1.gif');*/
     background: url('../images/elements/fuzz1.gif');
     background-repeat: repeat;
     -webkit-background-clip: text;
@@ -151,7 +148,7 @@ ul.breadcrumb li a:hover {
 }
 
 .dropdown:hover .dropbtn {
-    background-color: black;
+    background-color: #202020;
 }
 
 /*STYLE*/
