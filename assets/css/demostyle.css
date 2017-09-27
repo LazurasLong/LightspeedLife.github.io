@@ -3,19 +3,6 @@
 /* LAYOUT */
 * { box-sizing: border-box; }
 
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
 body, html {
     margin: 0;
 }
@@ -31,9 +18,9 @@ main {
 header {
     width: 240px;
     height: 100%;
-    padding-left: 30px;
+    padding-left: 10px;
     padding-bottom: 100%;
-    float: left;
+    left: 0;
     position: fixed;
     z-index: 1;
     background-color: black;
@@ -57,10 +44,6 @@ footer {
     position: fixed;
     text-transform: uppercase;
 }
-nav {
-    display: list-item block;
-    color: whitesmoke;
-}
 
 h1, h2, h3, h4, h5, h6 { color: white; letter-spacing: 6px; font-weight: 200; color: white; font-family: 'Segoe UI' }
 a, p, b, i, em, q { color: #c9c9c9; font-family: 'Segoe UI'; z-index: 1; }
@@ -79,6 +62,89 @@ iframe.mainframe {
     width: 100%;
     position: absolute;
     padding-left: 240px;
+}
+
+/* Style the list */
+ul.breadcrumb {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 16px;
+    list-style: none;
+    background-color: black;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+    letter-spacing: 8px;
+    display: inline;
+    font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: whitesmoke;
+    content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+    /*background: url('/assets/images/elements/fuzz1.gif');*/
+    background: url('../images/elements/fuzz1_25.gif');
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.dropbtn {
+    background: url('../images/elements/fuzz1_25.gif');
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: cell;
+}
+
+.dropdown {
+    float: right;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background: url('..images/elements/fuzz1_25.gif');
+    background-repeat: repeat;
+    min-width: 160px;
+    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: black;
 }
 
 /*STYLE*/

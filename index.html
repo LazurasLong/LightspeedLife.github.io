@@ -10,12 +10,15 @@
     <!-- <link rel="stylesheet" type="text/css" href="/assets/css/demostyle.css"> -->
     <link rel="stylesheet" type="text/css" href="./assets/css/demostyle.css">
     <!-- <link rel="icon" href="/assets/images/elements/fuzz1.gif" type="image/gif" sizes="16x16"> -->
-    <link rel="icon" href="./assets/images/elements/fuzz1.gif" type="image/gif" sizes="16x16">
+    <link rel="icon" href="./assets/images/elements/fuzz1_25.gif" type="image/gif" sizes="16x16">
     <style>
-        nav a {
-            letter-spacing: 5px;
+        nav ul {
+            letter-spacing: 8px;
         }
-        h1 { letter-spacing: 4px; line-height: 40px; color: white; }
+        nav ul li:hover {
+            list-style: disc;
+        }
+        h1 { letter-spacing: 4px; line-height: 20px; color: white; }
         h1::hover { text-decoration: underline; }
         p, em, i, b, a { color: #c9c9c9; }
         ul { font-size: larger; color: whitesmoke; }
@@ -36,7 +39,7 @@
     <main style="position: fixed;top: 0;bottom: 0;left: 0;right: 0;">
         <header>
             <div class="fuzztext">
-                <a href="./pages/front.html" target="iframe_section"><h1>IT'S A LIGHTSPEED LIFE</h1></a>
+                <a href="./pages/front.html" target="iframe_section"><h1 style="margin-left: 10px;">IT'S A LIGHTSPEED LIFE</h1></a>
                 <!-- <h1><a href="./pages/front.html" target="iframe_section">IT'S A LIGHTSPEED LIFE</a></h1> -->
                 <em>Now With Mobile Support!</em>
             </div>
@@ -50,9 +53,11 @@
                 </ul>
             </nav>
         <footer>
-            Hosted by Github Pages<br>
-            (c) Zee Pilgrim 2017<br>
-            contact: <a href="mailto:itsalightspeedlife@gmail.com" class="fuzztext">itsalightspeedlife@gmail.com</a>
+            <p>
+                Hosted by Github Pages<br>
+                (c) Zee Pilgrim 2017<br>
+                contact: <a href="mailto:itsalightspeedlife@gmail.com" class="fuzztext">itsalightspeedlife@gmail.com</a>
+            </p>
         </footer>
         </header>
         <section>

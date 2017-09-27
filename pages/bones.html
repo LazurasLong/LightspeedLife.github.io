@@ -19,14 +19,15 @@
             margin-right: 20%;
         }
         nav {
-            position: sticky;
+            position: fixed;
+            position: -webkit-sticky;
             top: 0;
-            left: 80%;
+            left: 0;
             width: 20%;
-            height: 100%;
+            height: 30px;
             overflow: auto;
         }
-    </style>
+        </style>
         <!-- Global Site Tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107066291-1"></script>
         <script>
@@ -39,19 +40,25 @@
 </head>
 <body>
 <nav>
-    <ul>
-        <li><a href="#listofthings">=A List of Things to Write About=</a></li>
-        <li><a href="#advice">ADVICE (Ø):</a></li>
-        <li><a href="#bilgewater">Bilgewater Beverage</a></li>
-        <li><a href="#cigarette">Cigarette</a></li>
-        <li><a href="#clansong">=Clansong=</a></li>
-        <li><a href="#erost">=Erost=</a></li>
-        <li><a href="#feelingalien">Feeling Alien</a></li>
-        <li><a href="#obsessions">=Obsessions=</a></li>
-        <li><a href="#sprints">#SPRINTS</a></li>
-        <li><a href="#templesprint">Temple Sprint</a></li>
-        <li><a href="#todos">#ToDos</a></li>
+    <ul class="breadcrumb">
+        <li><a href="/pages/bones.html">BONES</a></li>
     </ul>
+    <div class="dropdown">
+        <button class="dropbtn">NAV</button>
+        <div class="dropdown-content">
+            <a href="#listofthings">=A List of Things to Write About=</a>
+            <a href="#advice">ADVICE (Ø):</a>
+            <a href="#bilgewater">Bilgewater Beverage</a>
+            <a href="#cigarette">Cigarette</a>
+            <a href="#clansong">=Clansong=</a>
+            <a href="#erost">=Erost=</a>
+            <a href="#feelingalien">Feeling Alien</a>
+            <a href="#obsessions">=Obsessions=</a>
+            <a href="#sprints">#SPRINTS</a>
+            <a href="#templesprint">Temple Sprint</a>
+            <a href="#todos">#ToDos</a>
+        </div>
+    </div>
 </nav>
 <pre>
 <h2 id="listofthings">=A List of Things to Write About=</h2>
