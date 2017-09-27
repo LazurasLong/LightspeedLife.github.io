@@ -66,12 +66,12 @@ iframe.mainframe {
 
 /* Style the list */
 ul.breadcrumb {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    padding: 10px 16px;
-    list-style: none;
-    background-color: black;
+  position: relative;
+  width: 90%;
+  /* padding: 10px 16px; */
+  list-style: none;
+  background-color: black;
+  float: left;
 }
 
 /* Display list items side by side */
@@ -103,30 +103,30 @@ ul.breadcrumb li a:hover {
     -webkit-text-fill-color: transparent;
 }
 .dropbtn {
-    background: url('../images/elements/fuzz1_25.gif');
-    color: black;
-    padding: 16px;
-    font-size: 16px;
-    font-weight: bold;
-    border: none;
-    cursor: cell;
+  background: black;
+  color: whitesmoke;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: lighter;
+  border: none;
+  cursor: cell;
 }
 
 .dropdown {
-    float: right;
-    position: relative;
-    display: inline-block;
+  float: right;
+  position: relative;
+  display: inline-block;
+  padding-right: 20px;
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    right: 0;
-    background: url('..images/elements/fuzz1_25.gif');
-    background-repeat: repeat;
-    min-width: 160px;
-    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
-    z-index: 1;
+  display: none;
+  position: absolute;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  min-width: 200px;
+  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  z-index: 1;
 }
 
 .dropdown-content a {
@@ -137,7 +137,7 @@ ul.breadcrumb li a:hover {
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: rgba(e, e, e, 0.7); color: black;}
 
 .dropdown:hover .dropdown-content {
     display: block;
@@ -238,7 +238,6 @@ a { text-decoration: none; }
 }
 
 @media only screen and (max-width: 500px) {
-    header h1 { line-height: 10px; }
     article.featured { width: auto; }
     article img { position: absolute; top: 0; left: 0; margin-right: 70%; }
     article h2, article p { position: relative; margin: 5px; top: 0; right: 0; text-align: right; }
