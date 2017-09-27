@@ -6,6 +6,7 @@ h1, h2, h3, h4, h5, h6 { color: white; letter-spacing: 6px; font-weight: 200; co
 a, p, b, i, em, q { color: #c9c9c9; font-family: 'Segoe UI'; z-index: 1; }
 
 a { cursor: cell; text-decoration: none; }
+a * { cursor: cell; }
 
 p, q, b, em, i, h1, h2, h3, h4, h5, h6 {
     /*-webkit-background-clip: text;*/
