@@ -171,7 +171,6 @@ ul.breadcrumb li a:hover {
 article {
     position: relative;
     height: 200px;
-    border: none;
     padding: none;
     margin: 25px;
     background-color: #090909;
@@ -181,6 +180,13 @@ article {
     border-image: url('../images/fuzz1.gif') 10% repeat;
     float: left;
     transition: content 1s ease;
+}
+
+.fuzzborder {
+    border: 10px solid transparent;
+    border-image: url('../images/fuzz1.gif') 10% repeat;
+    display: block;
+    padding: 10px;
 }
 
 .overlay {
