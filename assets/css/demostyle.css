@@ -155,7 +155,7 @@ ul.breadcrumb li a:hover {
 
 /*STYLE*/
 
-.fuzztext, .fuzztext * {
+.fuzztext, .fuzztext *, a {
     background: url('../images/fuzz1.gif');
     background-repeat: repeat;
     -webkit-background-clip: text;
