@@ -210,10 +210,10 @@ article {
 article:hover .overlay { opacity: 1; }
 
 /*article img {float: left;margin-right: 10px;height: 180px;width: auto;z-index: 0;}*/
-/*article.featured { width: 700px; background-position: left; text-align: left; }*/
-/*article.standard { width: 200px; background-position: center; text-align: center; }*/
-article img { position: absolute; top: 0; left: 0; margin-right: 70%; }
-article h2, article p { position: relative; margin: 5px; top: 0; right: 0; text-align: left; }
+article.featured { width: 700px; background-position: left; text-align: left; }
+article.standard { width: 200px; background-position: center; text-align: center; }
+article img { position: absolute; top: 0; left: 0; margin-right: 70%; height: 180px; width: auto; z-index: 0;}
+article h2, article p { position: relative; margin: 5px; top: 0; right: 0; text-align: left;}
 article h2:after, p:after { content: ""; clear: both; display: table; }
 
 /*ANIMATIONS*/
