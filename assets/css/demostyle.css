@@ -213,7 +213,7 @@ article:hover .overlay { opacity: 1; }
 article.featured { width: 700px; background-position: left; text-align: left; }
 article.standard { width: 200px; background-position: center; text-align: center; }
 article img { position: absolute; top: 0; left: 0; height: 180px; width: auto; z-index: 0;}
-article.featured h2, article.featured p { position: relative; margin: 5px; top: 0; right: 0; text-align: right;}
+article.featured h2, article.featured p, article.featured i, article.featured em, article.featured b { position: relative; margin: 5px; top: 0; right: 0; text-align: right;}
 article.featured h2:after, article.featured p:after { content: ""; clear: both; display: table; }
 
 /*ANIMATIONS*/
